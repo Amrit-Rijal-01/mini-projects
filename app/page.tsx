@@ -4,12 +4,12 @@ export default function Home() {
 
 
    return (
-      <div>
+      <div className="">
          <div className="flex flex-col items-center">
             <div className="my-4">
                <h2 className="text-xl ">List of Projects</h2>
             </div>
-            <div className="w-full flex ">
+            <div className="flex flex-wrap p-4 justify-center">
                <Card
                   title="Task Management"
                   src="task-management"

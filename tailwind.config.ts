@@ -16,6 +16,9 @@ export default {
         sans: ['var(--font-expletus)'],
       },
     },
+    container: {
+      center: true,
+    }
   },
   plugins: [],
 } satisfies Config;
